@@ -1,0 +1,44 @@
+htmls, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(202, 192, 190, 0.226);
+}
+h1{
+    color: rgb(243, 243, 243);
+    background-color: darkblue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.capture-form{
+    border: 1px solid #bbb;
+    padding: 5px 20px 20px 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(161, 160, 160);
+    border-radius: 6px;
+    margin: auto;
+    
+} 
+.capture-form h3{
+    padding: auto;
+    text-align: center;
+}
+.todo-item{
+    border: 1px solid black;
+    margin: 10px 50px;
+    padding: 15px 30px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.todo-item:hover{
+    border-color: blue;
+    color: black;
+    box-shadow: 0 2px 4px rgb(20, 19, 19);
+}
+.todo-item h5{
+    display: inline-block;
+    width: 90%;
+}
